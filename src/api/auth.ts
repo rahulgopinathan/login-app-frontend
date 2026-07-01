@@ -1,4 +1,6 @@
-const API_BASE = (import.meta.env.VITE_API_URL as string | undefined) ?? "/api";
+const API_BASE =
+  (import.meta.env.VITE_API_URL as string | undefined) ??
+  "http://localhost:3000/api";
 
 export interface LoginPayload {
   email: string;
